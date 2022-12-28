@@ -1,0 +1,17 @@
+<main>
+	<br />
+	<h1>
+		{{search}}
+	</h1>
+	{{#if searchData}}
+		<ul>
+			{{#each searchData}}
+				<li>
+					<a href="show/{{show.id}}" class="show-link">{{show.name}}</a>
+				</li>
+			{{/each}}
+		</ul>
+	{{else}}
+		<h2>No such show found</h2>
+	{{/if}}
+</main>

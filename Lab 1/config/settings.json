@@ -1,0 +1,6 @@
+{
+	"mongoConfig": {
+		"serverUrl": "mongodb://localhost:27017/",
+		"database": "Preet_Dabhi_CS554_Lab1"
+	}
+}

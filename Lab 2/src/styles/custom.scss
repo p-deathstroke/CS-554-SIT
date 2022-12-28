@@ -1,0 +1,35 @@
+@import "variables";
+@import "./src/styles/bootstrap/scss/bootstrap";
+
+* {
+	box-sizing: border-box;
+}
+body,
+html {
+	background: $body-background;
+	font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+	font-size: $primary-font-size;
+	background-clip: border-box;
+}
+
+p {
+	font-size: $secondary-font-size;
+	color: #196f3d;
+}
+
+h1 {
+	color: white;
+}
+h2 {
+	color: #4a235a;
+}
+
+.nav-link {
+	color: white;
+}
+.card-title {
+	color: $card-color;
+}
+.btn-close {
+	color: $btn-color;
+}

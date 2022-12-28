@@ -1,0 +1,29 @@
+{
+	"name": "lab-2",
+	"version": "1.0.0",
+	"description": "This is Lab 2",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Preet Dabhi",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"popper.js": "^1.16.1"
+	},
+	"devDependencies": {
+		"gulp": "^4.0.2",
+		"gulp-autoprefixer": "^6.1.0",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-imagemin": "^4.1.0",
+		"gulp-rename": "^2.0.0",
+		"gulp-sass": "^5.0.0",
+		"gulp-sourcemaps": "^3.0.0",
+		"jquery": "^3.6.0",
+		"sass": "^1.40.1",
+		"tether": "^2.0.0"
+	}
+}
